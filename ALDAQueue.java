@@ -1,5 +1,3 @@
-package t1linear;
-
 /*
  * This file should not be changed in *ANY* way except the package statement
  * that you may change to whatever suits you. Note that you should *NOT* have
