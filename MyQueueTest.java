@@ -1,5 +1,3 @@
-package t1linear;
-
 public class MyQueueTest {
     public static void main(String[] args){
         MyQueue<String> queue = new MyQueue<>(10000008);
