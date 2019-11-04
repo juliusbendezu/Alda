@@ -15,9 +15,9 @@ public class DoubleHashingProbingHashTable<T> extends ProbingHashTable<T> {
         int interval = r - (currentPos % r);
 
         while (continueProbing(currentPos, x)) {
-			currentPos += interval;
-			if(currentPos >= capacity())
-			    currentPos -= capacity();
+		currentPos += interval;
+		if(currentPos >= capacity())
+		    currentPos -= capacity();
         }
 
         return currentPos;
